@@ -1,0 +1,30 @@
+-----
+
+网上关于NFS的文章很多，我参考了几篇写的详细的又挑了几条比较重点简单做一个概述。  
+
+**NFS的功能**:用于实现unix-like系统之间文件的传输和共享，unix-like和windows之间主要用samba。  
+> 
+例如:做嵌入式开发经常要在服务器上进行编译，然后在将编译好的目标文件放到跑着linux系统的嵌入式设备中去运行和调试。每次编译、拷贝较长的地址比较麻烦，这时候可以使用NFS将网络上的linux服务器上的工程目录挂载到嵌入式设备上(linux 服务器做为NFS server,嵌入式设备做为NFS client)。
+
+## NFS开发环境的配置包括:
+- linux 服务器端NFS服务器配置:
+	* 关闭防火墙
+	* 编辑/etc/exports文件配置共享目录和权限。
+	* 执行 exportfs -a 使exports目录生效
+	* 执行 exportfs 查看已生效的目录
+	* 重启NFS服务
+- 嵌入式设备系统上的NFS客户端支持
+	* 客户端启动portmap服务  
+		> service portmap start     #启动portmap服务    
+		> ps -ef | grep portmap #查看服务是否启动        
+	* 挂载NFS服务器端目录
+		> mount -t nfs 192.168.10.176:/home/rookie /mnt/nfs -o nolock
+	* 取消挂载  	 
+		> umount /mnt/nfs
+
+
+showmount -e NFS-server-ip 显示NFS server上export出来的目录  
+
+	$ showmount -e 192.168.10.176
+	Export list for 159.99.249.176:
+	/home/rookie   *
