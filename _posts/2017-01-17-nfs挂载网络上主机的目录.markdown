@@ -14,16 +14,17 @@
 	* 执行 exportfs 查看已生效的目录
 	* 重启NFS服务
 - 嵌入式设备系统上的NFS客户端支持
-	* 客户端启动portmap服务  
-		> service portmap start     #启动portmap服务    
-		> ps -ef | grep portmap #查看服务是否启动        
-	* 挂载NFS服务器端目录
-		> mount -t nfs 192.168.10.176:/home/rookie /mnt/nfs -o nolock
-	* 取消挂载  	 
+	* 客户端启动portmap服务   
+		> service portmap start     #启动portmap服务  
+		> ps -ef | grep portmap #查看服务是否启动  
+		>       
+	* 挂载NFS服务器端目录  
+		> mount -t nfs 192.168.10.176:/home/rookie /mnt/nfs -o nolock  
+	* 取消挂载      
 		> umount /mnt/nfs
 
 
-showmount -e NFS-server-ip 显示NFS server上export出来的目录  
+showmount -e NFS-server-ip 显示NFS server上export出来的目录   
 
 	$ showmount -e 192.168.10.176
 	Export list for 159.99.249.176:
