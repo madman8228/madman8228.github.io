@@ -1,0 +1,10 @@
+#### 子类初始化过程：
+调用子类构造函数之前，先调用父类构造函数（默认调用父类无参数构造函数），如果父类没有提供无参数构造函数，子类要用super语句去调用父类带参数构造函数.
+class Fish extendes Animal 
+{
+  Fish()
+  {
+    super("lily")//invoke superclass constructor
+    System.out.println("Fish constructor");
+  }
+}
