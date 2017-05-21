@@ -1,16 +1,6 @@
-<<<<<<< HEAD
-## ÎÒµÄµÚÒ»¸ö¼¼Êõ²©¿Í
-###¼ò½é
-ÏëÒªÓÐÒ»¸ö×Ô¼ºµÄ²©¿ÍºÜ¾ÃÁË£¬Ö±µ½×î½ü¿´µ½Ò»±é½Ì³Ì£ºÀûÓÃgithub pages´î½¨×Ô¼ºµÄ²©¿Í£¬Ã»Ïëµ½½¨Ò»¸ö×Ô¼º¸öÐÔ»¯µÄ²©¿ÍÒ²²»ÄÑ¡£
-ÎÒÊ¹ÓÃÁËÎÄÕÂÍÆ¼öµÄÖ÷Ìâ[cool-concise-high-end](http://jekyllthemes.org/themes/cool-concise-high-end/) ÕÒµ½×÷ÕßµÄgithubºó±ãÖ±½ÓcloneµÄÒ»·Ý:D
-
-**¸ÐÐ»×÷ÕßÓÅÐãµÄ×÷Æ·,×÷Õß²©¿Í: [http://gaohaoyang.github.io/](http://gaohaoyang.github.io/)**.
-=======
 ## æˆ‘çš„ç¬¬ä¸€ä¸ªæŠ€æœ¯åšå®¢
 ###ç®€ä»‹
 æƒ³è¦æœ‰ä¸€ä¸ªè‡ªå·±çš„åšå®¢å¾ˆä¹…äº†ï¼Œç›´åˆ°æœ€è¿‘çœ‹åˆ°ä¸€éæ•™ç¨‹ï¼šåˆ©ç”¨github pagesæ­å»ºè‡ªå·±çš„åšå®¢ï¼Œæ²¡æƒ³åˆ°å»ºä¸€ä¸ªè‡ªå·±ä¸ªæ€§åŒ–çš„åšå®¢ä¹Ÿä¸éš¾ã€‚
-æˆ‘ä½¿ç”¨äº†æ–‡ç« æŽ¨èçš„cool-concise-high-end[ä¸»é¢˜](http://jekyllthemes.org/themes/cool-concise-high-end/) å› ä¸ºæˆ‘ä¹Ÿæ„Ÿè§‰è¿™ä¸ªä¸»é¢˜åšçš„ä¸é”™ï¼Œæ‰¾åˆ°ä½œè€…çš„githubåŽä¾¿ç›´æŽ¥cloneçš„ä¸€ä»½:D
+æˆ‘ä½¿ç”¨äº†æ–‡ç« æŽ¨èçš„ä¸»é¢˜[cool-concise-high-end](http://jekyllthemes.org/themes/cool-concise-high-end/) æ‰¾åˆ°ä½œè€…çš„githubåŽä¾¿ç›´æŽ¥cloneçš„ä¸€ä»½:D
 
 **æ„Ÿè°¢ä½œè€…ä¼˜ç§€çš„ä½œå“,ä½œè€…åšå®¢: [http://gaohaoyang.github.io/](http://gaohaoyang.github.io/)**.
-
->>>>>>> origin/master
